@@ -21,4 +21,4 @@ jobs:
           
       - name: Upload 
         run: |
-          npx ipfs-deploy ./build  
+          npx ipfs-deploy ./dist  
