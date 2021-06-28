@@ -2,11 +2,10 @@ import Vue from 'vue';
 import Router from 'vue-router';
 
 import index from './pages/index';
-import about from './pages/about';
-import blockchain from './pages/blockchain';
+import team from './pages/Team';
 import contact from './pages/contact';
-import faq from './pages/faq';
 import roadmap from './pages/roadmap';
+import token from './pages/Token';
 
 Vue.use(Router);
 
@@ -19,19 +18,9 @@ export default new Router({
 			component: index,
 		},
 		{
-			path: '/faq',
-			name: 'faq',
-			component: faq,
-		},
-		{
-			path: '/about',
-			name: 'about',
-			component: about,
-		},
-		{
-			path: '/blockchain',
-			name: 'blockchain',
-			component: blockchain,
+			path: '/team',
+			name: 'team',
+			component: team,
 		},
 		{
 			path: '/contact',
@@ -42,6 +31,11 @@ export default new Router({
 			path: '/roadmap',
 			name: 'roadmap',
 			component: roadmap,
+		},
+		{
+			path: '/token',
+			name: 'token',
+			component: token,
 		},
 	],
 });

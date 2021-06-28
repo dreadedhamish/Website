@@ -30,7 +30,7 @@
 					</a>
 				</div>
 				<p class="mt-8 text-base leading-6 text-center text-gray-400">
-					© 2021 THIRM SOLUTIONS. All rights reserved.
+					© 2021 THIRM SOLUTIONS
 				</p>
 			</div>
 		</section>
@@ -38,10 +38,10 @@
 </template>
 
 <style scoped>
-.footer-wrapper {
-	background-image: url(https://ipfs.io/ipfs/Qma11mYE8TWQGntt2bZbX9ktJE7D7ACprLP9QcntxGSmjW/);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: 75% 1%, 0 0;
-}
+	.footer-wrapper {
+		background-image: url(https://ipfs.io/ipfs/Qma11mYE8TWQGntt2bZbX9ktJE7D7ACprLP9QcntxGSmjW/);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 75% 1%, 0 0;
+	}
 </style>

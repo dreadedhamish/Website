@@ -2,104 +2,25 @@
 	<div>
 		<div class="container px-16 py-24 md:pt-60 md:pb-10 mx-auto text-center md:text-center">
 			<h1 class="text-5xl font-extrabold leading-12 tracking-tight text-center text-gray-900 md:text-center sm:leading-none md:text-6xl lg:text-7xl">
-				<span class="inline block ">THIRM </span>
-				<span class="relative text-transparent bg-clip-text bg-gradient-to-br from-indigo-800 to-indigo-500 md:inline-block">PROTOCOL</span>
+				THIRM PROTOCOL
 			</h1>
 			<div class="mx-auto mt-4 text-gray-500 md:max-w-lg text-center lg:text-xl text-lg">
 				allows you to transfer your cryptocurrency assets between multiple blockchains.
 			</div>
-			<div class="flex flex-col items-center mt-12 text-center">
-				<span class="relative inline-flex w-full md:w-auto">
-					<a href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x21da60b286baefd4725a41bb50a9237eb836a9ed" type="button" class="inline-flex items-center justify-center w-full px-16 py-4 text-base font-bold leading-6 text-white bg-indigo-600 border border-transparent rounded-full md:w-auto hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-600">
-						GET THIRM
-					</a>
-					<span class="absolute top-0 right-0 px-2 py-1 -mt-3 -mr-6 text-xs font-medium leading-tight text-white bg-green-400 rounded-full">PANCAKESWAP</span>
-				</span>
-				<a href="#" class="mt-3 text-sm text-indigo-500">Learn More</a>
+
+			<div class=" mx-auto space-y-6 text-center items-center py-5">
+				<a href="https://swap.thirm.com/" class="m-3 inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-lg text-white bg-gray-400 rounded-2xl sm:w-auto sm:mb-0 uppercase">
+					SWAP <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-4 h-4 ml-1"><path d="M5 12h14M12 5l7 7-7 7"></path></svg
+				></a>
+
+				<a href="https://bridge.thirm.com/" class="m-3 inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-lg text-white bg-gray-400 rounded-2xl sm:w-auto sm:mb-0 uppercase">
+					BRIDGE <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-4 h-4 ml-1"><path d="M5 12h14M12 5l7 7-7 7"></path></svg
+				></a>
+
+		
 			</div>
-		</div>
 
-		<section class="bg-white">
-			<div class="container mx-auto max-w-6xl py-10">
-				<div class="listing-box">
-					<div class="list-items">
-						<a target="_blank" href="https://coinmarketcap.com/currencies/thirm-protocol">
-							<img src="../assets/tags/coinmarketcap.png" alt="Coinmarketcap" class="block object-contain h-16" />
-						</a>
-					</div>
-
-					<div class="list-items">
-						<a target="_blank" href="https://www.coingecko.com/en/coins/thirm-protocol">
-							<img src="../assets/tags/coingecko.png" alt="Coingecko" class="block object-contain h-16" />
-						</a>
-					</div>
-
-					<div class="list-items">
-						<a target="_blank" href="https://uniswap.info/token/0xb526fd41360c98929006f3bdcbd16d55de4b0069">
-							<img src="../assets/tags/uniswap.png" alt="Uniswap" class="block object-contain h-16" />
-						</a>
-					</div>
-
-					<div class="list-items">
-						<a target="_blank" href="https://pancakeswap.info/token/0x21da60b286baefd4725a41bb50a9237eb836a9ed">
-							<img src="../assets/tags/pancake.png" alt="Pancake" class="block object-contain h-16" />
-						</a>
-					</div>
-
-					<div class="list-items">
-						<a target="_blank" href="https://matcha.xyz/markets/56/0x21da60b286baefd4725a41bb50a9237eb836a9ed">
-							<img src="../assets/tags/matcha.png" alt="Matcha" class="block object-contain h-16" />
-						</a>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<div class="container mx-auto max-w-6xl">
-			<div class="listing-box py-4 md:py-8">
-				<div class="list-items px-2 md:px-8">
-					<a href="https://bscscan.com/token/0x21da60b286baefd4725a41bb50a9237eb836a9ed"><img src="https://bafybeidp2xmic7xyxclq6yspj4vg3v5njfn7iugo5gdnf2avfwfs47whge.ipfs.infura-ipfs.io/images/smartchain-network.png" /> </a>
-				</div>
-				<div class="list-items px-2 md:px-8">
-					<a href="https://etherscan.io/token/0xb526fd41360c98929006f3bdcbd16d55de4b0069"> <img src="https://bafybeidp2xmic7xyxclq6yspj4vg3v5njfn7iugo5gdnf2avfwfs47whge.ipfs.infura-ipfs.io/images/matic-network.png" /> </a>
-				</div>
-			</div>
+			<lottie-player autoplay="" loop="" mode="normal" src="https://assets4.lottiefiles.com/packages/lf20_koye4yua.json" class="object-cover object-center w-96 h-96 mx-auto" background="transparent"></lottie-player>
 		</div>
 	</div>
 </template>
-
-<style scoped>
-.listing-box {
-	margin: 16px;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-}
-.listing-box .listing img {
-	width: 200px;
-	padding: 8px;
-}
-.list-items {
-	width: 250px;
-	margin: 16px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	transition: all 0.4s ease-in-out;
-}
-.list-items:hover {
-	transform: scale(1.15);
-}
-.list-items.greyscale {
-	opacity: 0.3;
-}
-.list-items.greyscale a > img {
-	filter: grayscale(100%);
-}
-@media screen and (max-width: 1023px) {
-	.listing-box {
-		flex-direction: column;
-	}
-}
-</style>
