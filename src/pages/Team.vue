@@ -11,7 +11,7 @@
 			<div class="relative px-16 mx-auto max-w-7xl">
 				<p class="font-medium tracking-wide text-blue-500 uppercase">OUR TEAM</p>
 				<h2 class="relative max-w-lg mt-5 mb-10 text-2xl font-semibold leading-tight uppercase">An incredible team of <br />amazing individuals</h2>
-				<div class="grid w-full grid-cols-2 gap-10 sm:grid-cols-3 lg:grid-cols-4">
+				<div class="grid w-full grid-cols-2 gap-10 sm:grid-cols-3">
 					<div class="flex flex-col items-center justify-center col-span-1">
 						<div class="relative p-5">
 							<div class="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-blue-50"></div>
@@ -59,45 +59,6 @@
 						<div class="mt-3 space-y-2 text-center">
 							<div class="space-y-1 text-lg font-medium leading-6">
 								<h3>Paul G</h3>
-								<p class="text-blue-600">Web Developer</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="flex flex-col items-center justify-center col-span-1">
-						<div class="relative p-5">
-							<div class="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-green-50"></div>
-							<img class="relative z-20 w-full rounded-full" src="https://cdn.devdojo.com/images/june2021/avt-14.jpg" />
-						</div>
-						<div class="mt-3 space-y-2 text-center">
-							<div class="space-y-1 text-lg font-medium leading-6">
-								<h3>Ron Jenson</h3>
-								<p class="text-blue-600">Senior Developer</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="flex flex-col items-center justify-center col-span-1">
-						<div class="relative p-5">
-							<div class="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-pink-50"></div>
-							<img class="relative z-20 w-full rounded-full" src="https://cdn.devdojo.com/images/june2021/avt-13.jpg" />
-						</div>
-						<div class="mt-3 space-y-2 text-center">
-							<div class="space-y-1 text-lg font-medium leading-6">
-								<h3>Pete Tompkins</h3>
-								<p class="text-blue-600">Web Developer</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="flex flex-col items-center justify-center col-span-1">
-						<div class="relative p-5">
-							<div class="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-green-50"></div>
-							<img class="relative z-20 w-full rounded-full" src="https://cdn.devdojo.com/images/june2021/avt-16.jpg" />
-						</div>
-						<div class="mt-3 space-y-2 text-center">
-							<div class="space-y-1 text-lg font-medium leading-6">
-								<h3>Kelly Richards</h3>
 								<p class="text-blue-600">Web Developer</p>
 							</div>
 						</div>
