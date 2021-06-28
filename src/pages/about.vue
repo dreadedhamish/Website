@@ -37,15 +37,6 @@
 					<p class="mb-5 text-md text-gray-800">Manager</p>
 				</div>
 			</div>
-			<div>
-				<div class="relative mb-4 rounded shadow">
-					<img class="object-cover w-full h-full rounded" src="https://ipfs.io/ipfs/QmRxVvi1ggkPAptY61iRbRUFW3F6NVHQcLQBRvAtsrs4Jz" alt="Person" />
-				</div>
-				<div class="flex flex-col text-center">
-					<p class="text-2xl font-bold">Paul</p>
-					<p class="mb-5 text-md text-gray-800">Tester (Part Time)</p>
-				</div>
-			</div>
 		</div>
 	</div>
 </template>
