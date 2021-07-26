@@ -9,7 +9,6 @@
 					<nav class="flex flex-wrap items-center mb-5 text-base md:mb-0 md:pl-8 md:ml-8 md:border-l md:border-gray-200 justify-center">
 						<router-link to="/token" class="uppercase mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">Token</router-link>
 						<router-link to="/roadmap" class="uppercase mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">Roadmap</router-link>
-						<router-link to="/team" class="uppercase mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">team</router-link>
 						<router-link to="/contact" class="uppercase mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">Contact</router-link>
 					</nav>
 				</div>
