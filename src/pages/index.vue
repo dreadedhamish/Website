@@ -9,15 +9,9 @@
 			</div>
 
 			<div class=" mx-auto space-y-6 text-center items-center py-5">
-				<a href="https://swap.thirm.com/" class="m-3 inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-lg text-white bg-gray-400 rounded-2xl sm:w-auto sm:mb-0 uppercase">
-					SWAP <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-4 h-4 ml-1"><path d="M5 12h14M12 5l7 7-7 7"></path></svg
-				></a>
-
 				<a href="https://bridge.thirm.com/" class="m-3 inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-lg text-white bg-gray-400 rounded-2xl sm:w-auto sm:mb-0 uppercase">
 					BRIDGE <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-4 h-4 ml-1"><path d="M5 12h14M12 5l7 7-7 7"></path></svg
 				></a>
-
-		
 			</div>
 
 			<lottie-player autoplay="" loop="" mode="normal" src="https://assets4.lottiefiles.com/packages/lf20_koye4yua.json" class="object-cover object-center w-96 h-96 mx-auto" background="transparent"></lottie-player>
