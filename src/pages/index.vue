@@ -11,8 +11,6 @@
 					BRIDGE <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-4 h-4 ml-1"><path d="M5 12h14M12 5l7 7-7 7"></path></svg
 				></a>
 			</div>
-
-			<lottie-player autoplay="" loop="" mode="normal" src="animation/main.json" class="object-cover object-center w-96 h-96 mx-auto" background="transparent"></lottie-player>
 		</div>
 	</div>
 </template>
