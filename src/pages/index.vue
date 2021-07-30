@@ -14,7 +14,7 @@
 				></a>
 			</div>
 
-			<lottie-player autoplay="" loop="" mode="normal" src="https://assets4.lottiefiles.com/packages/lf20_koye4yua.json" class="object-cover object-center w-96 h-96 mx-auto" background="transparent"></lottie-player>
+			<lottie-player autoplay="" loop="" mode="normal" src="animation/main.json" class="object-cover object-center w-96 h-96 mx-auto" background="transparent"></lottie-player>
 		</div>
 	</div>
 </template>
