@@ -3,7 +3,7 @@
 		<div class="container mx-auto max-w-6xl px-10">
 			<div class="grid grid-cols-1 text-gray-600 md:grid-cols-2 md:gap-16">
 				<div class="col-span-1">
-					<lottie-player class="object-cover object-center w-full h-full" autoplay loop mode="normal" src="https://ipfs.io/ipfs/QmT8iBrdpE8fWztEsZiNCgjaVscAGzM1VwWx9M2933dwar"> </lottie-player>
+					<lottie-player class="object-cover object-center w-full h-full" autoplay loop mode="normal" src="animation/contact.json"> </lottie-player>
 				</div>
 
 				<div class="col-span-1 m-auto">
