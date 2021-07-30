@@ -1,6 +1,6 @@
 <template>
   <div class="container py-32 mx-auto text-center max-w-2xl">
-    <h1 class="text-4xl font-extrabold tracking-tight md:text-center">THIRM PROTOCOL</h1>
+    <h1 class="text-6xl font-extrabold tracking-tight md:text-center">THIRM PROTOCOL</h1>
     <div class="mx-auto mt-4 text-lg ">connects non-EVM blockchains with Ethereum. Facilitating access to Defi using traditional blockchains like $NANO $BTC $LTC.</div>
 
     <div class="mx-auto space-y-6 text-center items-center py-5">
