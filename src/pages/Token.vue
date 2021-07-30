@@ -11,7 +11,8 @@
                                                         <a href="https://app.uniswap.org/#/swap?outputCurrency=0xb526fd41360c98929006f3bdcbd16d55de4b0069" class="flex items-center px-6 py-3 text-gray-500 bg-gray-100 rounded-md hover:bg-gray-200 hover:text-gray-600">BUY</a>
 							<a href="https://info.uniswap.org/#/tokens/0xb526fd41360c98929006f3bdcbd16d55de4b0069" class="flex items-center px-6 py-3 text-gray-500 bg-gray-100 rounded-md hover:bg-gray-200 hover:text-gray-600">UNISWAP</a>
 							<a href="https://etherscan.io/token/0xb526fd41360c98929006f3bdcbd16d55de4b0069" class="flex items-center px-6 py-3 text-gray-500 bg-gray-100 rounded-md hover:bg-gray-200 hover:text-gray-600">ETHERSCAN</a>
-						</div>
+                                                        <a href="https://www.coingecko.com/en/coins/thirm-protocol" class="flex items-center px-6 py-3 text-gray-500 bg-gray-100 rounded-md hover:bg-gray-200 hover:text-gray-600">COINGECKO</a>
+</div>
 					</div>
 				</div>
 			</div>
