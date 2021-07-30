@@ -5,6 +5,7 @@ import index from './pages/index';
 import contact from './pages/contact';
 import roadmap from './pages/roadmap';
 import token from './pages/Token';
+import tvl from './pages/TVL';
 
 Vue.use(Router);
 
@@ -30,6 +31,11 @@ export default new Router({
 			path: '/token',
 			name: 'token',
 			component: token,
+		},
+		{
+			path: '/tvl',
+			name: 'tvl',
+			component: tvl,
 		},
 	],
 });

@@ -6,17 +6,15 @@
 					<router-link to="/" class="flex items-center mb-5 font-medium text-gray-900 lg:w-auto lg:items-center lg:justify-center md:mb-0">
 						<span class="mx-auto text-xl font-black leading-none select-none">THIRM</span>
 					</router-link>
-					<nav class="flex flex-wrap items-center mb-5 text-base md:mb-0 md:pl-8 md:ml-8 md:border-l md:border-gray-200 justify-center">
-						<router-link to="/token" class="uppercase mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">Token</router-link>
-						<router-link to="/roadmap" class="uppercase mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">Roadmap</router-link>
-						<router-link to="/contact" class="uppercase mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">Contact</router-link>
-					</nav>
 				</div>
 
 				<div class="inline-flex items-center ml-5 space-x-6 lg:justify-end">
-					<a href="https://docs.thirm.com" class="inline-flex items-center justify-center px-4 py-2 text-base font-medium leading-6 text-white whitespace-no-wrap bg-indigo-600 border border-transparent rounded-md shadow-sm hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-600">
-						Documentation
-					</a>
+					<nav class="flex flex-wrap items-center mb-5 text-base md:mb-0 md:pl-8 md:ml-8 md:border-l md:border-gray-200 justify-center">
+						<router-link to="/token" class="uppercase mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">Token</router-link>
+						<router-link to="/tvl" class="uppercase mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">TVL</router-link>
+						<router-link to="/roadmap" class="uppercase mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">Roadmap</router-link>
+						<router-link to="/contact" class="uppercase mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">Contact</router-link>
+					</nav>
 				</div>
 			</div>
 		</section>
