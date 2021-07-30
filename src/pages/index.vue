@@ -4,9 +4,7 @@
 			<h1 class="text-5xl font-extrabold leading-12 tracking-tight text-center text-gray-900 md:text-center sm:leading-none md:text-6xl lg:text-7xl">
 				THIRM PROTOCOL
 			</h1>
-			<div class="mx-auto mt-4 text-gray-500 md:max-w-lg text-center lg:text-xl text-lg">
-				allows you to transfer your cryptocurrency assets between multiple blockchains.
-			</div>
+			<div class="mx-auto mt-4 text-gray-500 md:max-w-lg text-center lg:text-xl text-lg">connects non-EVM blockchains with Ethereum. Facilitating access to Defi using traditional blockchains like $NANO $BTC $LTC.</div>
 
 			<div class=" mx-auto space-y-6 text-center items-center py-5">
 				<a href="https://bridge.thirm.com/" class="m-3 inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-lg text-white bg-gray-400 rounded-2xl sm:w-auto sm:mb-0 uppercase">
