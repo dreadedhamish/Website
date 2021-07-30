@@ -1,16 +1,12 @@
 <template>
-	<div>
-		<div class="container px-16 py-24 md:pt-60 md:pb-10 mx-auto text-center md:text-center">
-			<h1 class="text-5xl font-extrabold leading-12 tracking-tight text-center text-gray-900 md:text-center sm:leading-none md:text-6xl lg:text-7xl">
-				THIRM PROTOCOL
-			</h1>
-			<div class="mx-auto mt-4 text-gray-500 md:max-w-lg text-center lg:text-xl text-lg">connects non-EVM blockchains with Ethereum. Facilitating access to Defi using traditional blockchains like $NANO $BTC $LTC.</div>
+  <div class="container py-32 mx-auto text-center max-w-2xl">
+    <h1 class="text-4xl font-extrabold tracking-tight md:text-center">THIRM PROTOCOL</h1>
+    <div class="mx-auto mt-4 text-lg ">connects non-EVM blockchains with Ethereum. Facilitating access to Defi using traditional blockchains like $NANO $BTC $LTC.</div>
 
-			<div class=" mx-auto space-y-6 text-center items-center py-5">
-				<a href="https://bridge.thirm.com/" class="m-3 inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-lg text-white bg-gray-400 rounded-2xl sm:w-auto sm:mb-0 uppercase">
-					BRIDGE <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-4 h-4 ml-1"><path d="M5 12h14M12 5l7 7-7 7"></path></svg
-				></a>
-			</div>
-		</div>
-	</div>
+    <div class="mx-auto space-y-6 text-center items-center py-5">
+      <a href="https://bridge.thirm.com/" class="m-3 inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-lg text-white bg-gray-400 rounded-2xl sm:w-auto sm:mb-0 uppercase">
+        BRIDGE <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-4 h-4 ml-1"><path d="M5 12h14M12 5l7 7-7 7"></path></svg
+      ></a>
+    </div>
+  </div>
 </template>
