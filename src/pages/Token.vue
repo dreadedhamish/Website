@@ -112,8 +112,8 @@
             "
           >
             <a href="https://coinmarketcap.com/currencies/thirm-protocol/">
-              <img src="tags/coingecko.png"
-            /></a>
+              <img src="tags/coinmarketcap.png" />
+            </a>
           </div>
           <div
             class="
@@ -126,8 +126,8 @@
             "
           >
             <a href="https://www.coingecko.com/en/coins/thirm-protocol">
-              <img src="tags/coinmarketcap.png"
-            /></a>
+              <img src="tags/coingecko.png" />
+            </a>
           </div>
           <div
             class="
@@ -194,7 +194,7 @@
                         dark:text-gray-400
                       "
                     >
-                     UNISWAP LP
+                      UNISWAP LP
                     </p>
                     <p
                       class="
