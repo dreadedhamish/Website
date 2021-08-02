@@ -3,7 +3,7 @@ import Router from 'vue-router';
 
 import index from './pages/index';
 import contact from './pages/contact';
-import roadmap from './pages/roadmap';
+import roadmap from './pages/Roadmap';
 import token from './pages/Token';
 import tvl from './pages/TVL';
 import faq from './pages/FAQ';
