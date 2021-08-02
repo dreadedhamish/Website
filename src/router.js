@@ -6,6 +6,7 @@ import contact from './pages/contact';
 import roadmap from './pages/roadmap';
 import token from './pages/Token';
 import tvl from './pages/TVL';
+import faq from './pages/FAQ';
 
 Vue.use(Router);
 
@@ -36,6 +37,11 @@ export default new Router({
 			path: '/tvl',
 			name: 'tvl',
 			component: tvl,
+		},
+		{
+			path: '/faq',
+			name: 'faq',
+			component: faq,
 		},
 	],
 });
