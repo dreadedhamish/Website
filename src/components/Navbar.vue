@@ -10,11 +10,11 @@
 
 				<div class="inline-flex items-center ml-5 space-x-6 lg:justify-end">
 					<nav class="flex flex-wrap items-center mb-5 text-base md:mb-0 md:pl-8 md:ml-8 md:border-l md:border-gray-200 justify-center">
-						<router-link to="/token" class="uppercase mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">Token</router-link>
-						<router-link to="/tvl" class="uppercase mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">TVL</router-link>
-						<router-link to="/faq" class="uppercase mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">FAQ</router-link>
-						<router-link to="/roadmap" class="uppercase mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">Roadmap</router-link>
-						<router-link to="/contact" class="uppercase mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">Contact</router-link>
+						<router-link to="/Token" class="uppercase mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">Token</router-link>
+						<router-link to="/TVL" class="uppercase mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">TVL</router-link>
+						<router-link to="/FAQ" class="uppercase mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">FAQ</router-link>
+						<router-link to="/Roadmap" class="uppercase mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">Roadmap</router-link>
+						<router-link to="/Contact" class="uppercase mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">Contact</router-link>
 					</nav>
 				</div>
 			</div>

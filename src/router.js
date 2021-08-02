@@ -1,12 +1,12 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 
-import index from './pages/index';
-import contact from './pages/contact';
-import roadmap from './pages/Roadmap';
-import token from './pages/Token';
-import tvl from './pages/TVL';
-import faq from './pages/FAQ';
+import Index from './pages/Index';
+import Contact from './pages/Contact';
+import Roadmap from './pages/Roadmap';
+import Token from './pages/Token';
+import TVL from './pages/TVL';
+import FAQ from './pages/FAQ';
 
 Vue.use(Router);
 
@@ -15,33 +15,33 @@ export default new Router({
 	routes: [
 		{
 			path: '/',
-			name: 'index',
-			component: index,
+			name: 'Index',
+			component: Index,
 		},
 		{
-			path: '/contact',
-			name: 'contact',
-			component: contact,
+			path: '/Contact',
+			name: 'Contact',
+			component: Contact,
 		},
 		{
-			path: '/roadmap',
-			name: 'roadmap',
-			component: roadmap,
+			path: '/Roadmap',
+			name: 'Roadmap',
+			component: Roadmap,
 		},
 		{
-			path: '/token',
-			name: 'token',
-			component: token,
+			path: '/Token',
+			name: 'Token',
+			component: Token,
 		},
 		{
-			path: '/tvl',
-			name: 'tvl',
-			component: tvl,
+			path: '/TVL',
+			name: 'TVL',
+			component: TVL,
 		},
 		{
-			path: '/faq',
-			name: 'faq',
-			component: faq,
+			path: '/FAQ',
+			name: 'FAQ',
+			component: FAQ,
 		},
 	],
 });
