@@ -104,8 +104,8 @@ export default {
         },
         {
           icon: "🤞",
-          title: "Solver Realease",
-          text: "Solver Realease",
+          title: "Solver Release",
+          text: "Solver Release",
         },
         {
           icon: "🤞",
