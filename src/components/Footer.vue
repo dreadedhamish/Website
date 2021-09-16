@@ -7,10 +7,6 @@
 						<span class="sr-only">DISCORD</span>
 						<i class="fab fa-2x fa-discord"></i>
 					</a>
-					<a href="https://t.me/thirm">
-						<span class="sr-only">TELEGRAM</span>
-						<i class="fab fa-2x fa-telegram"></i>
-					</a>
 					<a href="https://github.com/thirmprotocol">
 						<span class="sr-only">GITHUB</span>
 						<i class="fab fa-2x fa-github"></i>
