@@ -11,11 +11,12 @@ jobs:
         run: |
           sudo apt-get update -y 
           sudo apt install git -y
+          npm install --global yarn
 
-      - name: Install
+      - name: Install and Build
         run: |
-          npm i
-          npm run build
+          yarn
+          yarn build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.4
