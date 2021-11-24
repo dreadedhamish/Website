@@ -1,47 +1,36 @@
-import Vue from 'vue';
-import Router from 'vue-router';
+import Vue from "vue";
+import Router from "vue-router";
 
-import Index from './pages/Index';
-import Contact from './pages/Contact';
-import Roadmap from './pages/Roadmap';
-import Token from './pages/Token';
-import TVL from './pages/TVL';
-import FAQ from './pages/FAQ';
+import about from "./pages/about.vue";
+import faq from "./pages/faq.vue";
+import index from "./pages/index.vue";
+import roadmap from "./pages/roadmap.vue";
 
 Vue.use(Router);
 
 export default new Router({
-	mode: 'history',
-	routes: [
-		{
-			path: '/',
-			name: 'Index',
-			component: Index,
-		},
-		{
-			path: '/Contact',
-			name: 'Contact',
-			component: Contact,
-		},
-		{
-			path: '/Roadmap',
-			name: 'Roadmap',
-			component: Roadmap,
-		},
-		{
-			path: '/Token',
-			name: 'Token',
-			component: Token,
-		},
-		{
-			path: '/TVL',
-			name: 'TVL',
-			component: TVL,
-		},
-		{
-			path: '/FAQ',
-			name: 'FAQ',
-			component: FAQ,
-		},
-	],
+  mode: "history",
+  routes: [
+    {
+      path: "/",
+      name: "index",
+      component: index,
+    },
+
+    {
+      path: "/roadmap",
+      name: "roadmap",
+      component: roadmap,
+    },
+    {
+      path: "/faq",
+      name: "faq",
+      component: faq,
+    },
+    {
+      path: "/about",
+      name: "about",
+      component: about,
+    },
+  ],
 });
