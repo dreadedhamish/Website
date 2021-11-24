@@ -1,11 +1,20 @@
-import Vue from 'vue';
-import App from './App.vue';
-import router from './router';
+import Vue from "vue";
+import App from "./App.vue";
+import router from "./router";
 
-import VueApexCharts from 'vue-apexcharts'
-Vue.use(VueApexCharts)
+import Buefy from "buefy";
 
-Vue.component('apexchart', VueApexCharts)
+import LoadScript from "vue-plugin-load-script";
+import "@lottiefiles/lottie-player";
+import ScrollFixedHeader from "vuejs-scroll-fixed-header";
 
+Vue.use(Buefy);
+Vue.use(LoadScript);
+Vue.use(ScrollFixedHeader);
 
-new Vue({ router, render: (h) => h(App) }).$mount('#app');
+Vue.config.productionTip = false;
+
+new Vue({
+  router,
+  render: (h) => h(App),
+}).$mount("#app");
